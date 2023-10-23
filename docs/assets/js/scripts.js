@@ -1,9 +1,13 @@
 const searchInput = document.getElementById('searchInput');
 const searchButton = document.getElementById('searchButton');
 
-searchButton.addEventListener('click', (e) => {
-  e.preventDefault();
+searchButton.addEventListener('click', (event) => {
+  event.preventDefault(); 
+
   const searchValue = searchInput.value;
-  const url = `https://github.com/elidianaandrade/dio-lab-open-source/tree/main/community/${encodeURIComponent(searchValue)}.md`; 
+
+  const encodedSearchValue = encodeURIComponent(searchValue);
+  const url = `https://github.com/elidianaandrade/dio-lab-open-source/tree/main/community/${encodedSearchValue}.md`;
+
   window.open(url, '_blank');
-})
+});
