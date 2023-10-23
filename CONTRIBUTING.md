@@ -55,3 +55,63 @@
 - [ANGULAR. Contributing to Angular](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md)
 - [CONVENTIONAL COMMITS. Summary](https://www.conventionalcommits.org/en/v1.0.0/)
 - [GITHUB. Configurar diretrizes para os contribuidores do repositório](https://docs.github.com/pt/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors)
+
+- ENGLISH
+
+- <h1>
+    <a href="https://www.dio.me/">
+        <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
+    <span> Contribution Guide</span>
+</h1>
+
+[![Star](https://img.shields.io/github/stars/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/stargazers)
+[![Forks](https://img.shields.io.github/forks/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/forks)
+[![GitHub Issues](https://img.shields.io/github/issues/digitalinnovationone/dio-lab-open-source?style=social)](https://github.com/digitalinnovationone/dio-lab-open-source/issues/)
+
+This is a project created for the community, so feel free to contribute. Some ways to contribute, in addition to creating your Profile README example, include adding other utilities to the [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils) folder, or improving the README search page by making modifications to the files in the [`docs`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/docs) folder. <br>
+Furthermore, you can also contribute by:
+
+⚠️ Resolving, responding to, or suggesting **issues**
+
+⭐ Adding to your favorites (**star**)
+
+## Contributing to the "Community" directory
+Contributing to the "Community" directory is part of the lab challenge **Contributing to an Open Source Project on GitHub** from [Digital Innovation One](https://www.dio.me/). You can collaborate by creating a Profile README containing information about yourself that you want to share with the community. In this README, you can include badges indicating your skills, cards with your GitHub statistics and projects you've created, collaborated on, or want others to collaborate on. Additionally, you can include links to your project challenges and articles on the [Digital Innovation One](https://www.dio.me/) platform. <br>
+Get inspired by checking out the examples in the [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) folder, explore some utilities in the [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils) folder, and use your creativity to create your own 😊💙.
+
+### Instructions
+1. **Fork** this repository;
+2. Clone it locally: `git clone https://github.com/YOUR_USERNAME/dio-lab-open-source.git`;
+3. Add the upstream remote to keep your local repository updated. For example: `git remote add upstream https://github.com/elidianaandrade/dio-lab-open-source.git`;
+   > Use the command `git pull upstream main` to download and merge the changes into your local repository based on the `main` branch of this original repository from which you forked or `git fetch upstream main` to download without merging. Learn more at: [Getting Started with Git and GitHub](https://github.com/digitalinnovationone/dio-curso-git-github/blob/main/materiais-de-apoio/03-primeiros-passos-com-git-e-github.md).
+4. Create a new **branch** and name it `feat/community/YOUR_USERNAME`;
+   > Example: `feat/community/elidianaandrade`
+5. Inside the [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) folder, create a Markdown file (extension `.md`) and name it the same as your GitHub username;
+   > Example: `elidianaandrade.md` <br>
+6. Develop your profile. You can check examples in the [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community) folder and add some of the utilities available in the [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils) folder;
+   > **Note:** Use the other examples as inspiration and not a direct copy.
+7. Add your changes to the staging area with the command `git add community/YOUR_USERNAME.md`;
+8. Create a commit and add a message indicating the addition of your profile `git commit -m "feat: add YOUR_USERNAME profile"`;
+9. Push the changes to your remote repository `git push origin feat/community/YOUR_USERNAME`; 
+10. Create a **Pull Request**.
+
+## Commit Convention
+
+| Commit Type | Description                                 |
+| ----------- | ------------------------------------------- |
+| `feat`      | Add a new feature to the project.           |
+| `fix`       | Fix a bug or issue in the project.         |
+| `docs`      | Modify project documentation (e.g., README, code comments). |
+| `style`     | Make visual changes without affecting functionality. |
+| `refactor`  | Make code changes that do not affect functionality. |
+| `test`      | Add or modify tests in the project.         |
+
+##### Example commit
+
+`feat: added a new file`
+
+## References
+- [ANGULAR. Contributing to Angular](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md)
+- [CONVENTIONAL COMMITS. Summary](https://www.conventionalcommits.org/en/v1.0.0/)
+- [GITHUB. Setting up guidelines for repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors)
+
